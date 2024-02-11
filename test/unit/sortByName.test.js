@@ -23,7 +23,7 @@ describe("Books names test suit", () => {
     expect(() => sorting.sortByName()).toThrow(TypeError)
   });
 
-  test("Books names should be sorted in ascending order", () => {
+  test("Some book titles match", () => {
     const input = [
       "Унесенные ветром",
       "Горе от ума",
